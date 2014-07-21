@@ -41,7 +41,7 @@ set incsearch                         " incremental search
 syntax enable
 set t_Co=256
 try
-  colorscheme railscasts
+  colorscheme Guardian
 catch
 endtry
 

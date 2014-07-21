@@ -12,7 +12,7 @@ You may notice that there are several vimrc files:
 
 4. `experimental-vimrc`, same as pro-vimrc, but just for experimental purpose.
 
-you can link your `~/.vimrc` to any one of them as you wish :)
+you can link your `~/.vimrc` to any one of theme as you wish :)
 
 It's how my Vim looks now:
 
