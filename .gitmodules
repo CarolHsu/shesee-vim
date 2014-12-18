@@ -112,9 +112,11 @@
 [submodule "bundle/snipmate"]
   path = bundle/snipmate
   url = git://github.com/kaochenlong/snipmate.vim.git
+  ignore = untracked
 [submodule "bundle/jslint.vim"]
 	path = bundle/jslint.vim
 	url = git://github.com/kaochenlong/jslint.vim.git
 [submodule "bundle/vim-multiple-cursors"]
 	path = bundle/vim-multiple-cursors
 	url = git://github.com/terryma/vim-multiple-cursors.git
+  ignore = untracked
