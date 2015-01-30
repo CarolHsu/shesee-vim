@@ -18,3 +18,5 @@ noremap <CR> :nohlsearch<CR>
 " select ALL
 map <C-A> ggVG
 
+set cursorline    " enable the horizontal line
+set cursorcolumn  " enable the vertical line

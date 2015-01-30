@@ -124,3 +124,7 @@
 	path = bundle/vim-airline
 	url = git@github.com:bling/vim-airline.git
   ignore = untracked
+[submodule "bundle/vim-crosshairs"]
+	path = bundle/vim-crosshairs
+	url = git@github.com:bronson/vim-crosshairs.git
+  ignore = untracked
