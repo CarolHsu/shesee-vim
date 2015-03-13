@@ -12,11 +12,16 @@ filetype plugin indent on
 call pathogen#infect()
 call pathogen#helptags()
 
+
+call plug#begin('~/.vim/plugged')
+Plug 'junegunn/vim-easy-align'
+call plug#end()
 " hit enter to cancel searched highlight
 noremap <CR> :nohlsearch<CR>
 
 " select ALL
 map <C-A> ggVG
+vmap <Enter> <Plug>(EasyAlign)
 
 set cursorline    " enable the horizontal line
 set cursorcolumn  " enable the vertical line
