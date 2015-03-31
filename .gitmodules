@@ -141,3 +141,18 @@
 [submodule "bundle/vim-arduino"]
   path = bundle/vim-arduino
   url = git@github.com:tclem/vim-arduino.git
+[submodule "bundle/vim-easy-align"]
+  path = bundle/vim-easy-align
+  url = git@github.com:junegunn/vim-easy-align.git
+[submodule "bundle/vim-gitgutter"]
+  path = bundle/vim-gitgutter
+  url = https://github.com/airblade/vim-gitgutter.gi://github.com/airblade/vim-gitgutter.git
+[submodule "bundle/vim-go"]
+  path = bundle/vim-go
+  url = https://github.com/fatih/vim-go.git
+[submodule "bundle/vim-swift"]
+  path = bundle/vim-swift
+  url = git://github.com/toyamarinyon/vim-swift.git
+[submodule "bundle/vim-yaml"]
+  path = bundle/vim-yaml
+  url = https://github.com/avakhov/vim-yaml
