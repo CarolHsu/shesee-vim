@@ -155,3 +155,6 @@
 [submodule "snippets/snipmate-snippets"]
   path = snippets/snipmate-snippets
   url = https://github.com/scrooloose/snipmate-snippets.git
+[submodule "bundle/jshint.vim"]
+	path = bundle/jshint.vim
+	url = git@github.com:wookiehangover/jshint.vim.git
