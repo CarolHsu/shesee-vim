@@ -1,5 +1,3 @@
-My personal Vim configurations and some plugins which I used in my daily job.
-
 I put Vim related settings in `plugin/settings/Settings.vim`, and isolate other plugins' settings in `plugin/settings` directory.
 
 You may notice that there are several vimrc files:
@@ -16,10 +14,6 @@ you can link your `~/.vimrc` to any one of theme as you wish :)
 
 It's how my Vim looks now:
 
-![image](https://github.com/kaochenlong/eddie-vim/raw/master/screenshots/vim-2012-03-27-macvim.png)
-
-and <a href="http://blog.eddie.com.tw/2012/03/06/my-vimrc/" target="_blank">Here</a> are some screenshots on the other platforms.
-
 ## Usage
 
 ### Installation and Requisites:
@@ -30,11 +24,11 @@ If you already install `git` in your machine, and you trust me and my automatic 
 
 1. via `curl`:
 
-`sh <(curl -L https://github.com/kaochenlong/eddie-vim/raw/master/utils/install.sh)`
+`sh <(curl -L https://github.com/carolhsu/shesee-vim/raw/master/utils/install.sh)`
 
 2. or via `wget`:
 
-`sh <(wget --no-check-certificate https://github.com/kaochenlong/eddie-vim/raw/master/utils/install.sh -O -)`
+`sh <(wget --no-check-certificate https://github.com/carolhsu/shesee-vim/raw/master/utils/install.sh -O -)`
 
 #### Manual installation
 
@@ -46,14 +40,14 @@ If you already install `git` in your machine, and you trust me and my automatic 
 
         git clone git://github.com/kaochenlong/eddie-vim.git
 
-4. cd to `eddie-vim` directory and execute the `update.sh` to get latest version modules:
+4. cd to `shesee-vim` directory and execute the `update.sh` to get latest version modules:
 
-        cd eddie-vim
+        cd shesee-vim
         ./update.sh
 
-5. make a symbolic link `.vim` to `eddie-vim` that you just cloned, or just rename it to `.vim` also be fine:
+5. make a symbolic link `.vim` to `shesee-vim` that you just cloned, or just rename it to `.vim` also be fine:
 
-        ln -s eddie-vim .vim
+        ln -s shesee-vim .vim
 
 6. link the vimrc to
 
@@ -69,9 +63,7 @@ If you already install `git` in your machine, and you trust me and my automatic 
 
 9. if you use Powerline under Ubuntu or something which can not show the correct icons/fonts on the bottom, you can check [this link](https://github.com/scotu/ubuntu-mono-powerline), it looks pretty nice.
 
-10. you may need to install `ack` or `silver searcher` first if you use `ack.vim`.
-
-### Update:
+### Otherwise:
 
 change directory to `~/.vim` and execute `./update.sh` script, it should do all the updates automatically.
 
@@ -113,9 +105,3 @@ if you can not found `ctags` command, just find your ctags path and replace my s
     let Tlist_Ctags_Cmd = '/your/path/to/ctags'
 
 and [Exuberant Ctags](http://ctags.sourceforge.net/) is recommended.
-
-## Contact
-
-Enjoy it, and if there's any question or comment, feel free to let me know :)
-
-Eddie Kao (eddie@digik.com.tw)
