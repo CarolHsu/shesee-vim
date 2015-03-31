@@ -129,3 +129,6 @@
 	path = bundle/vim-crosshairs
 	url = git@github.com:bronson/vim-crosshairs.git
   ignore = untracked
+[submodule "bundle/jslint.vim"]
+  path = bundle/jslint.vim
+  url = git@github.com:hallettj/jslint.vim.git
