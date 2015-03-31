@@ -116,7 +116,7 @@
   ignore = untracked
 [submodule "bundle/jslint.vim"]
 	path = bundle/jslint.vim
-	url = git://github.com/kaochenlong/jslint.vim.git
+  url = git@github.com:hallettj/jslint.vim.git
 [submodule "bundle/vim-multiple-cursors"]
 	path = bundle/vim-multiple-cursors
 	url = git://github.com/terryma/vim-multiple-cursors.git
@@ -131,4 +131,13 @@
   ignore = untracked
 [submodule "bundle/jslint.vim"]
   path = bundle/jslint.vim
-  url = git@github.com:hallettj/jslint.vim.git
+  url = git://github.com/kaochenlong/jslint.vim.git
+[submodule "bundle/Vundle.vim"]
+  path = bundle/Vundle.vim
+  url = https://github.com/gmarik/Vundle.vim.git
+[submodule "bundle/emmet-vim"]
+  path = bundle/emmet-vim
+  url = git@github.com:mattn/emmet-vim.git
+[submodule "bundle/vim-arduino"]
+  path = bundle/vim-arduino
+  url = git@github.com:tclem/vim-arduino.git
