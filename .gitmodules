@@ -142,7 +142,7 @@
   url = git@github.com:junegunn/vim-easy-align.git
 [submodule "bundle/vim-gitgutter"]
   path = bundle/vim-gitgutter
-  url = https://github.com/airblade/vim-gitgutter.gi://github.com/airblade/vim-gitgutter.git
+  url = https://github.com/airblade/vim-gitgutter.git
 [submodule "bundle/vim-go"]
   path = bundle/vim-go
   url = https://github.com/fatih/vim-go.git
